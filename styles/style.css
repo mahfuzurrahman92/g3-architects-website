@@ -116,6 +116,7 @@
         margin: 5px auto;
     }
     .nav-links{
+        
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
