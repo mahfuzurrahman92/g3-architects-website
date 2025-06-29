@@ -63,7 +63,8 @@
  .banner ,
   .teams ,
 #facts ,
-#sponser{
+#sponser ,
+#last {
     max-width: 700px;
     margin: 0px auto;
     padding: 10px 20px;
@@ -159,7 +160,12 @@
 }
 .sponser-img img{
     width: 100px;
+    filter: grayscale(100%);
     /* height: 50px; */
+}
+/* footer section */
+#last{
+    text-align: center;
 }
 /* media query */
 @media screen and (max-width: 576px) {
@@ -169,15 +175,19 @@
     .team-description{
         margin: 5px auto;
     }
-    .nav-links{
+    .nav-links ,
+    .sponser-img{
         
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
     .team-image ,
-    .facts-cards{
+    .facts-cards 
+    {
         grid-template-columns: repeat(1,1fr);
     }
-     
+     .figma{
+        margin-left: 50px;
+     }
     
 }
