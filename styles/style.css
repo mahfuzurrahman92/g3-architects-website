@@ -150,11 +150,10 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    .team-image{
+    .team-image ,
+    .facts-cards{
         grid-template-columns: repeat(1,1fr);
     }
-     .facts-cards{
-        grid-template-columns: repeat(2,1fr);
-     }
+     
     
 }
