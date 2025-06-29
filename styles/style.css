@@ -62,7 +62,8 @@
 .navbar ,
  .banner ,
   .teams ,
-#facts{
+#facts ,
+#sponser{
     max-width: 700px;
     margin: 0px auto;
     padding: 10px 20px;
@@ -106,6 +107,19 @@
     align-items: center;
     
 }
+.sponser-description{
+    max-width: 400px;
+    /* justify-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto ;
+    /* text-align: center; */
+}
+.sp-des{
+    text-align: center;
+}
+
 /* .des-text .dark-3{
     max-width: 300px;
  
@@ -136,6 +150,16 @@
 }
 .card-name{
     margin-top: 0px;
+}
+/* sponser */
+.sponser-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+.sponser-img img{
+    width: 100px;
+    /* height: 50px; */
 }
 /* media query */
 @media screen and (max-width: 576px) {
